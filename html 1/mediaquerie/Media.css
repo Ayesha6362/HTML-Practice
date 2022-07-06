@@ -1,0 +1,30 @@
+.test{
+    background-color: red;
+}
+.parent{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+  @media screen and (max-width: 600px) {
+    .test {
+background-color: olive;
+
+}
+.child{
+    display: block;
+    width: 100%;
+}
+.para{
+    font-size:9px;
+}
+  }    
+  
+  @media screen and (max-width: 400px) {
+    .test {
+background-color:pink;
+    }
+    
+
+    
+  }

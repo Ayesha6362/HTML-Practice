@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animation</title>
+    <style>
+      .main {
+        width: 1000px;
+        height: 1000px;
+        background-color: pink;
+        border: 2px solid black;
+        position: relative;
+      }
+      .child {
+        background-color: red;
+        width: 100px;
+        height: 100px;
+        border: 2px solid black;
+        /* transform: 2s; */
+        position: absolute;
+        animation-name: post;
+        animation-duration: 10s;
+        transition: 10s;
+      }
+      @keyframes post {
+        0% {
+          top: 0px;
+          left:0px;
+        }
+        25% {
+          top: 0px;
+          left: 900px;
+          transform: rotate(90deg);
+        }
+        50%{
+            left: 900px;
+            top: 900px;
+        }
+        75%{
+            top: 900px;
+            left: 0px;
+
+        }
+        100%{
+            
+            left: 0px;
+            top: 0px;
+        }
+      }
+      /* .child:hover{
+            background-color:blueviolet;
+            width: 300px;
+            height: 300px;
+            border: 2px solid black;
+            transition: 2s;
+            transform: rotate(180deg);
+        } */
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="child">child</div>
+    </div>
+  </body>
+</html>

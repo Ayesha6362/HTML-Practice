@@ -1,0 +1,59 @@
+.upper{
+    /* lowercase likhne se small letet hoga */
+    text-transform: lowercase;
+
+}
+.lower{
+    /* is secapital hoga */
+    text-transform: uppercase;
+
+}
+.caps{
+    /* is sepahla word capital */
+    text-transform: capitalize;
+
+}
+/* text-alinment */
+/* is me text ko baraber me late h */
+.alinment{
+    background-color: aqua;
+    text-align: right;
+}
+.para{
+    text-align: left;
+}
+/* Text spacing */
+.spacing{
+    text-align: justify;
+    text-indent: 50px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+    white-space:nowrap;
+}
+/* shadwo */
+.shadwo{
+text-shadow: 5px 5px 10px red , 6px 6px 10px blue;
+
+}
+/* textdecoration */
+.decoration1{
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: blue;
+
+}
+.decoration2{
+    text-decoration: underline wavy 2px red;
+}
+.direction{
+    
+    direction:rtl ;
+    unicode-bidi:isolate-override;
+}
+.vertical{
+    font-size: 30px;
+    vertical-align: super;
+}
+
+

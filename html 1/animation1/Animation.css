@@ -1,0 +1,78 @@
+.one{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    animation-name: sample;
+    animation-duration: 5s;
+
+ }
+ .main{
+    background-color: brown;
+    width: 1100px;
+    height: 1100px;
+    position: relative;
+ }
+ .two{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    position: absolute;
+    animation-name: example;
+    animation-duration: 10s;
+ }
+
+ @keyframes sample{
+    from{
+        width: 100px;
+        background-color: blue;
+    }
+    to{
+        width: 300px;
+        background-color: red;
+    }
+}
+@keyframes example {
+    0%{
+        top: 0px;
+        left: 0px;
+        background-color: blue;
+    }
+    12.5%{
+        top: 0;
+        left: 500px;
+    }
+    25%{
+        top: 0;
+        left:1000px ;
+    }
+    37.5%{
+        left: 1000px;
+        top: 500px;
+    }
+    50%{
+        top: 1000px;
+        left: 1000px;
+        
+    }
+    62.5%{
+        bottom: 0;
+        left: 500px;
+    }
+    75%{
+        bottom: 0;
+        left: 1000px;
+    }
+    87.5%{
+        left: 0px;
+        top: 500px;
+    }
+
+    100%{
+        top:0px;
+        left: 0;
+        
+    }
+
+    
+}
+

@@ -1,0 +1,13 @@
+a:link{
+    color: blue;
+}
+a:visited{
+    color: aqua;
+}
+a:hover{
+    font-size: 50px;
+
+}
+a:active{
+    color: palevioletred;
+}

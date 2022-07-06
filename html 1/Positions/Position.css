@@ -1,0 +1,35 @@
+#maindiv{
+    border: 3px  solid blue;
+    width: 100%;
+    height: 400px;
+    position: relative;
+
+}
+#child1{
+    border: 3px  solid red;
+    width: 150px;
+    height: 150px;
+    /* position: absolute; */
+    /* top: 10px; */
+    
+    
+}
+#child2{
+    border: 3px  solid green;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: 10px;
+
+}
+#chatbutton{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    border: none;
+    position: fixed;
+    bottom: 10px;
+    color: navy;
+    background-color: aqua;
+    
+}
